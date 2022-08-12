@@ -1,0 +1,64 @@
+.title {
+    height: auto;
+    text-align: center;
+    /* line-height: 60vh; */
+    /* border-style: solid; */
+    font-family: "Hiragino Maru Gothic ProN W4", "ヒラギノ丸ゴ ProN W4";
+    font-size: 2rem;
+    margin-top: 20vh;
+}
+
+.subtitle {
+    text-align: center;
+    /* margin: 50px; */
+    padding: 30px;
+    padding-bottom: 15px;
+    /* border-style: solid; */
+
+}
+
+body {
+    margin: 0;
+    background-color: rgb(78, 157, 247);
+    color: white;
+    background-image: url("aaw.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.mokuji {
+    /* border-style: solid; */
+    position: fixed;
+    padding-left: 20px;
+}
+
+.mokuji_list {
+    list-style: none;
+    font-size: 14px;
+}
+.jump {
+    color: white;
+    margin-bottom: 16px;
+}
+
+.icon {
+    height: 28px;
+}
+
+.honbun {
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: .5;
+    transition: .15s ease-in-out;
+    transform: translateX(30px);
+}
+
+html { scroll-behavior: smooth;}
